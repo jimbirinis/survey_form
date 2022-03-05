@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 id="title">Survey form</h1>
+    <p id="description"> Please leave your contact information:</p>
+    <ul>
+    <form id="survey-form">
+    <label for="name" id="name-label">What is your name:
+    <input type="name-label" id="name" required placeholder="Enter your name:">
+    </label>
+    <br />
+    <label for="email" id="email-label">What is your email address?   
+    <input type="email" id="email" required placeholder="Enter your email:">
+    </label> 
+    <br />
+    <label for="number" id="number-label">How old are you? (optional)
+    <input type="number" min="18" max="99" 
+    id="number" placeholder="Enter your age:">
+    </label>
+    <br />
+    <label>Which season do you like?
+    <select id="dropdown">
+    <option value=””>Spring</option>
+    <option value=””>Summer</option>
+    <option value=””>Autumn</option>
+    <option value=””>Winter</option>
+    <option value=””>I prefer not to say</option>
+    </select>
+    </label>
+    <br />
+    <label>What is your gender?</label>
+    <br />
+    <label for="male">Male <input id="male" type="radio" name="male-female" value="male"></label>
+    <br />
+    <label for="female">Female <input id="female" type="radio" name="male-female" value="female"></label>
+    <br />
+    <label>Which pets do you like?</label>
+    <br />
+    <label for="cats">Cats <input id="cats" type="checkbox" name="cats" value="cats">
+    </label>
+    <br />
+    <label for="dogs">Dogs <input id="dogs" type="checkbox" name="dogs" value="dogs">
+    </label>
+    <br />
+    <label for="other">Other <input id="other" type="checkbox" name="other" value="other">
+    </label>
+    <br />
+    <label for="egz5">Enter your opinion: <textarea id=egz5></textarea>
+    </label>
+    <br />
+    <input id="submit" type="submit">
+    </form>
+     </ul>
+<h3 id="title">Thank you</h3>
+
+  </body>
+
+
+</html>
